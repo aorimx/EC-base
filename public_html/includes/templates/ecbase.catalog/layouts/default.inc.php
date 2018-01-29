@@ -57,6 +57,7 @@
   <?php echo functions::draw_fonticon('fa-chevron-circle-up fa-3x', 'style="color: #000;"'); ?>
 </a>
 
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
 <script src="{snippet:template_path}js/bootstrap.js"></script>
@@ -68,7 +69,7 @@
 <script src="{snippet:template_path}js/bar-order-by.js"></script>
 <script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
 <script src="{snippet:template_path}js/sweetalert2/dist/sweetalert2.all.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 {snippet:javascript}
+
 </body>
 </html>
