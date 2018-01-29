@@ -33,9 +33,20 @@
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>
 
-  <div id="main">
-    {snippet:content}
-  </div>
+  <main class="j-workspace ">
+    <div class="top">
+      {snippet:top}
+    </div>
+    <div class="j-wrap">
+      <div class="middle-content">
+        {snippet:content}
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      {snippet:bottom}
+    </div>
+  </main>
 
   <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/site_cookie_notice.inc.php'); ?>
 
