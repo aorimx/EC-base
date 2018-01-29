@@ -3,7 +3,10 @@
 <head>
 <title>{snippet:title}</title>
 <meta charset="{snippet:charset}" />
-{snippet:head_tags}
+<link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.css"/>
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick-theme.css"/>
 </head>
 <body data-size="A4">
 
