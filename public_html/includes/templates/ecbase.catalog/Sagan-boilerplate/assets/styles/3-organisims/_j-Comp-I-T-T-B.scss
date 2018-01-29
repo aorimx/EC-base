@@ -1,0 +1,27 @@
+.container-comp1{
+  width: 100%;
+  display: inline-flex;
+  .img-container{
+    padding-right: $space-2;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: $space-base;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .description{
+    width: 60%;
+    h1{
+      text-transform: uppercase;
+    }
+    p{
+      text-align: start;
+    }
+    button{
+      width: 25%;
+    }
+  }
+}
