@@ -40,6 +40,7 @@
     <div class="j-wrap">
       <div class="middle-content">
         {snippet:content}
+        <a href="<?php echo  document::ilink('page1'); ?>"><button>Page1</button></a>
         <div style="clear: both;"></div>
       </div>
     </div>
