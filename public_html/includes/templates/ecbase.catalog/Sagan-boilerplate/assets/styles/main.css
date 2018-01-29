@@ -810,6 +810,28 @@ footer {
         color: #FFF;
         margin-bottom: 0; }
 
+.container-comp1 {
+  width: 100%;
+  display: inline-flex; }
+  .container-comp1 .img-container {
+    padding-right: 16px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; }
+  .container-comp1 .description {
+    width: 60%; }
+    .container-comp1 .description h1 {
+      text-transform: uppercase; }
+    .container-comp1 .description p {
+      text-align: start; }
+    .container-comp1 .description button {
+      width: 25%; }
+
 /**
  * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
