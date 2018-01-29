@@ -5,7 +5,10 @@
 <meta charset="{snippet:charset}" />
 <meta name="description" content="{snippet:description}" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.css"/>
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick-theme.css"/>
 </head>
 <body>
 
@@ -45,6 +48,16 @@
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="{snippet:template_path}js/mobilMenu.js"></script>
+<script src="{snippet:template_path}js/bootstrap.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/checkout.js"></script>
+<script src="{snippet:template_path}js/scripts.js"></script>
+<script src="{snippet:template_path}js/bar-order-by.js"></script>
+<script src="{snippet:template_path}Sagan-boilerplate/assets/scripts/aside-categories.js"></script>
+<script src="{snippet:template_path}js/sweetalert2/dist/sweetalert2.all.min.js"></script>
 {snippet:javascript}
 </body>
 </html>
