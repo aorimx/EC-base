@@ -1,0 +1,47 @@
+.container-comp2_multimedia{
+  width: 100%;
+  display: inline-flex;
+  .video-container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    video{
+      width: 95%;
+    }
+  }
+  .description{
+    padding-left: $space-2;
+    width: 60%;
+    h1{
+      text-transform: uppercase;
+    }
+    p{
+      text-align: start;
+    }
+    button{
+      width: 25%;
+    }
+  }
+  @media screen and (max-width: 768px){
+    display: block;
+    .video-container{
+      width: 100%;
+    }
+    .description{
+      padding-left: 0;
+      width: 100%;
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      button{
+        width: 100%;
+      }
+    }
+  }
+}
