@@ -824,6 +824,9 @@ footer {
     .container-comp1 .img-container img {
       width: 95%; }
   .container-comp1 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 16px;
     width: 60%; }
     .container-comp1 .description h1 {
@@ -831,7 +834,7 @@ footer {
     .container-comp1 .description p {
       text-align: start; }
     .container-comp1 .description button {
-      width: 25%; }
+      width: 40%; }
   @media screen and (max-width: 768px) {
     .container-comp1 {
       display: block; }
@@ -861,13 +864,16 @@ footer {
       width: 95%; }
   .container-comp2_multimedia .description {
     padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60%; }
     .container-comp2_multimedia .description h1 {
       text-transform: uppercase; }
     .container-comp2_multimedia .description p {
       text-align: start; }
     .container-comp2_multimedia .description button {
-      width: 25%; }
+      width: 40%; }
   @media screen and (max-width: 768px) {
     .container-comp2_multimedia {
       display: block; }
@@ -883,41 +889,12 @@ footer {
         .container-comp2_multimedia .description button {
           width: 100%; } }
 
-.container-comp2_multimedia {
+.container-componentes {
   width: 100%;
   display: inline-flex; }
-  .container-comp2_multimedia .video-container {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center; }
-    .container-comp2_multimedia .video-container video {
-      width: 95%; }
-  .container-comp2_multimedia .description {
-    padding-left: 16px;
-    width: 60%; }
-    .container-comp2_multimedia .description h1 {
-      text-transform: uppercase; }
-    .container-comp2_multimedia .description p {
-      text-align: start; }
-    .container-comp2_multimedia .description button {
-      width: 25%; }
   @media screen and (max-width: 768px) {
-    .container-comp2_multimedia {
-      display: block; }
-      .container-comp2_multimedia .video-container {
-        width: 100%; }
-      .container-comp2_multimedia .description {
-        padding-left: 0;
-        width: 100%; }
-        .container-comp2_multimedia .description h1 {
-          text-align: center; }
-        .container-comp2_multimedia .description p {
-          text-align: center; }
-        .container-comp2_multimedia .description button {
-          width: 100%; } }
+    .container-componentes {
+      display: block; } }
 
 .content-cita {
   width: 50%;

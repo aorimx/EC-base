@@ -1,12 +1,4 @@
-<div class="container-comp2_multimedia">
-  <div class="video-container">
-    <video muted id="preview-youtube" autoplay="" loop="">
-    		  <source src="{snippet:template_path}video/preview.mp4" type="video/mp4">
-    </video>
-  </div>
-  <div class="description">
-    <h1>Titulo prueba</h1>
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <button>BOTON</button>
-</div>
+<div class="container-componentes">
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/Componente1.inc.php'); ?>
+<?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/Componente2.inc.php'); ?>
 </div>
