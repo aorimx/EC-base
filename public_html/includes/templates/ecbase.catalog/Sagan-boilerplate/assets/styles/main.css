@@ -913,11 +913,36 @@ footer {
       .container-componentes .componente-content {
         width: 100%; } }
 
+.content-cita {
+  width: 50%;
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .content-cita .content-picture {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    .content-cita .content-picture img {
+      max-width: 100px;
+      border-radius: 100%; }
+  .content-cita .content-info {
+    width: 75%; }
+    .content-cita .content-info strong {
+      text-align: right; }
+    .content-cita .content-info p {
+      text-align: right; }
+
+.content-T-T-B {
+  width: 50%; }
+  .content-T-T-B p {
+    text-align: justify; }
+
 /**
- * Featherlight – ultra slim jQuery lightbox
+ * Featherlight ÔÇô ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
  *
- * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com)
+ * Copyright 2016, No├½l Raoul Bossart (http://www.noelboss.com)
  * MIT Licensed.
 **/
 body.featherlight-open {
