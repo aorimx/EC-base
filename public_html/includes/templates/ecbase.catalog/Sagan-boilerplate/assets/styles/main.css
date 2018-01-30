@@ -814,16 +814,17 @@ footer {
   width: 100%;
   display: inline-flex; }
   .container-comp1 .img-container {
-    padding-right: 16px;
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin: 8px;
     justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center; }
+    .container-comp1 .img-container img {
+      width: 95%; }
   .container-comp1 .description {
+    padding-left: 16px;
     width: 60%; }
     .container-comp1 .description h1 {
       text-transform: uppercase; }
@@ -831,6 +832,56 @@ footer {
       text-align: start; }
     .container-comp1 .description button {
       width: 25%; }
+  @media screen and (max-width: 768px) {
+    .container-comp1 {
+      display: block; }
+      .container-comp1 .img-container {
+        width: 100%; }
+      .container-comp1 .description {
+        padding-left: 0;
+        width: 100%; }
+        .container-comp1 .description h1 {
+          text-align: center; }
+        .container-comp1 .description p {
+          text-align: center; }
+        .container-comp1 .description button {
+          width: 100%; } }
+
+.container-comp2_multimedia {
+  width: 100%;
+  display: inline-flex; }
+  .container-comp2_multimedia .video-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center; }
+    .container-comp2_multimedia .video-container video {
+      width: 95%; }
+  .container-comp2_multimedia .description {
+    padding-left: 16px;
+    width: 60%; }
+    .container-comp2_multimedia .description h1 {
+      text-transform: uppercase; }
+    .container-comp2_multimedia .description p {
+      text-align: start; }
+    .container-comp2_multimedia .description button {
+      width: 25%; }
+  @media screen and (max-width: 768px) {
+    .container-comp2_multimedia {
+      display: block; }
+      .container-comp2_multimedia .video-container {
+        width: 100%; }
+      .container-comp2_multimedia .description {
+        padding-left: 0;
+        width: 100%; }
+        .container-comp2_multimedia .description h1 {
+          text-align: center; }
+        .container-comp2_multimedia .description p {
+          text-align: center; }
+        .container-comp2_multimedia .description button {
+          width: 100%; } }
 
 /**
  * Featherlight – ultra slim jQuery lightbox
