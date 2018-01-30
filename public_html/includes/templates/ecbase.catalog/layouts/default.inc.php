@@ -14,7 +14,7 @@
 
 <div id="page" class="twelve-eighty shadow">
 
-  <header id="header" class="row nowrap center">
+  <header style="display: none;" id="header" class="row nowrap center">
 
     <div class="col-auto">
       <a class="logotype" href="<?php echo document::href_ilink(''); ?>">
@@ -31,7 +31,7 @@
     </div>
   </header>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_menu.inc.php'); ?>
 
   <main class="j-workspace ">
     <div class="top">
@@ -49,9 +49,9 @@
     </div>
   </main>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/site_cookie_notice.inc.php'); ?>
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/site_cookie_notice.inc.php'); ?>
 
-  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_footer.inc.php'); ?>
+  <?php //include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_BOXES . 'box_site_footer.inc.php'); ?>
 </div>
 
 <a id="scroll-up" href="#">
