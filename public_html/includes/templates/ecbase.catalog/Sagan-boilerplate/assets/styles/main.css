@@ -821,6 +821,8 @@ footer {
     align-content: center;
     align-items: center;
     text-align: center; }
+    .container-comp1 .img-container img {
+      width: 95%; }
   .container-comp1 .description {
     padding-left: 16px;
     width: 60%; }
@@ -850,12 +852,13 @@ footer {
   display: inline-flex; }
   .container-comp2_multimedia .video-container {
     width: 40%;
+    display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center; }
     .container-comp2_multimedia .video-container video {
-      width: 100%; }
+      width: 95%; }
   .container-comp2_multimedia .description {
     padding-left: 16px;
     width: 60%; }

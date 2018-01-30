@@ -3,12 +3,13 @@
   display: inline-flex;
   .video-container{
     width: 40%;
+    display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     text-align: center;
     video{
-      width: 100%;
+      width: 95%;
     }
   }
   .description{
