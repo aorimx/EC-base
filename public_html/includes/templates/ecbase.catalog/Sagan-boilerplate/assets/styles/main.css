@@ -933,11 +933,17 @@ footer {
     .content-cita .content-info p {
       text-align: right; }
 
+@media screen and (max-width: 768px) {
+  .content-cita {
+    width: 100%; } }
 .content-T-T-B {
   width: 50%; }
   .content-T-T-B p {
     text-align: justify; }
 
+@media screen and (max-width: 768px) {
+  .content-T-T-B {
+    width: 100%; } }
 /**
  * Featherlight ÔÇô ultra slim jQuery lightbox
  * Version 1.7.0 - http://noelboss.github.io/featherlight/
