@@ -933,10 +933,42 @@ footer {
     .content-cita .content-info p {
       text-align: right; }
 
+@media screen and (max-width: 768px) {
+  .content-cita {
+    width: 100%; } }
 .content-T-T-B {
   width: 50%; }
   .content-T-T-B p {
     text-align: justify; }
+
+@media screen and (max-width: 768px) {
+  .content-T-T-B {
+    width: 100%; } }
+.content-slider {
+  width: 50%;
+  display: inline-flex;
+  justify-content: center; }
+  .content-slider .content-cita {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap; }
+    .content-slider .content-cita .content-picture {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      .content-slider .content-cita .content-picture img {
+        max-width: 100px;
+        border-radius: 100%; }
+    .content-slider .content-cita .content-info {
+      width: 75%; }
+      .content-slider .content-cita .content-info strong {
+        text-align: right; }
+      .content-slider .content-cita .content-info p {
+        text-align: right; }
+  .content-slider .slider {
+    width: 90%; }
 
 /**
  * Featherlight ÔÇô ultra slim jQuery lightbox
