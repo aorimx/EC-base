@@ -1,0 +1,1898 @@
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in ~/includes/library/lib_database.inc.php on line 12
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: mysqli::set_charset(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 45
+ ← ~/includes/library/lib_database.inc.php on line 82 in set_charset()
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: Unknown MySQL character set for charset utf8 in ~/includes/library/lib_database.inc.php on line 83
+ ← ~/includes/library/lib_database.inc.php on line 14 in set_encoding()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: mysqli::query(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 121
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 221
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Warning: database::_error(): Couldn't fetch mysqli in ~/includes/library/lib_database.inc.php on line 221
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 19:28:24 Europe/Berlin] Fatal error:  - 
+select @@SESSION.sql_mode;
+ in ~/includes/library/lib_database.inc.php on line 221
+ ← ~/includes/library/lib_database.inc.php on line 122 in _error()
+ ← ~/includes/library/lib_database.inc.php on line 29 in query()
+ ← ~/includes/library/lib_database.inc.php on line 117 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 92 in query()
+ ← ~/includes/library/lib_language.inc.php on line 19 in load()
+ ← ~/includes/classes/system.inc.php on line 38 in forward_static_call()
+ ← ~/includes/app_header.inc.php on line 32 in run()
+ ← ~/index.php on line 16 in require_once()
+Request: GET /aori/EC-base/public_html/ HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:30:10 America/Mexico_City] Warning: Use of undefined constant DB_TABLE_PAGES_CUSTOM - assumed 'DB_TABLE_PAGES_CUSTOM' (this will throw an Error in a future version of PHP) in ~/includes/controllers/ctrl_pages_custom.inc.php on line 52
+ ← ~/admin/1_leo.app/pagelist.inc.php on line 58 in get_pages_list()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /aori/EC-base/public_html/admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:30:10 America/Mexico_City] Fatal error: 1146 - Table 'ec-base.db_table_pages_custom' doesn't exist
+select * from DB_TABLE_PAGES_CUSTOM
+ in ~/includes/library/lib_database.inc.php on line 221
+ ← ~/includes/library/lib_database.inc.php on line 122 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 52 in query()
+ ← ~/admin/1_leo.app/pagelist.inc.php on line 22 in loadAll()
+ ← ~/admin/1_leo.app/pagelist.inc.php on line 58 in get_pages_list()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /aori/EC-base/public_html/admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:45:03 America/Mexico_City] Notice: Undefined index: page_id in ~/admin/1_leo.app/pagesection.inc.php on line 29
+Request: POST /aori/EC-base/public_html/admin/?app=1_leo&doc=pagesection&new=1 HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:45:50 America/Mexico_City] Fatal error: Could not find product (ID: 1) in database. in ~/includes/controllers/ctrl_pages_component_custom.inc.php on line 31
+ ← ~/includes/controllers/ctrl_pages_component_custom.inc.php on line 7 in load()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 40 in __construct()
+ ← ~/includes/controllers/ctrl_pages_content_custom.inc.php on line 7 in load()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 45 in __construct()
+ ← ~/includes/controllers/ctrl_pages_section_custom.inc.php on line 8 in load()
+ ← ~/admin/1_leo.app/sectiondetail.inc.php on line 21 in __construct()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /aori/EC-base/public_html/admin/?app=1_leo&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:46:42 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:33 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php): failed to open stream: No such file or directory in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:47:47 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//pages/test_index.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/view.inc.php on line 63
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:48:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:25 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 6
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:25 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 7
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 9 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:51 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:49:53 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:50:17 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:19 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:21 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:27 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:55 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:55 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:55 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:51:55 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:05 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:05 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:05 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:05 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:52:25 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:01 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 5 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:41 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 6
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 10 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:53:41 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 7
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 10 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:00 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 6
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:00 America/Mexico_City] Notice: Undefined variable: page in ~/includes/templates/default.catalog/pages/test_index.inc.php on line 7
+ ← ~/includes/classes/view.inc.php on line 20 in _process_view()
+ ← ~/pages/test_index.inc.php on line 12 in stitch()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:22 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:54:55 America/Mexico_City] Notice: Array to string conversion in ~/includes/functions/func_page.inc.php on line 12
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:08 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:35 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:35 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:35 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:55:35 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:56:00 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:56:00 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:56:00 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:56:00 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:03 America/Mexico_City] Warning: include(): Failed opening 'A:/web/aori/EC-base/public_html/includes/templates/default.catalog//section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 10 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(A:/web/components/hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(A:/web/components/hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(A:/web/components/section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(A:/web/components/section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:58:54 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(A:/web/components/hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(A:/web/components/hero.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/hero.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 9 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(A:/web/components/section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(A:/web/components/section.inc.php): failed to open stream: No such file or directory in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 12:59:45 America/Mexico_City] Warning: include(): Failed opening 'A:/web/components/section.inc.php' for inclusion (include_path='C:\xampp\php\PEAR') in ~/includes/classes/component.inc.php on line 70
+ ← ~/includes/classes/component.inc.php on line 27 in _process_view()
+ ← ~/includes/library/lib_components.inc.php on line 9 in stitch()
+ ← ~/includes/functions/func_page.inc.php on line 11 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in page_getHtml()
+ ← ~/pages/test_index.inc.php on line 8 in __callstatic()
+ ← ~/index.php on line 35 in include()
+Request: GET /aori/EC-base/public_html/en/test_index HTTP/1.1
+Client: ::1 (DESKTOP-M0MLO2S)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:01:10 America/Mexico_City] Warning: Use of undefined constant DB_TABLE_PAGES_CUSTOM - assumed 'DB_TABLE_PAGES_CUSTOM' (this will throw an Error in a future version of PHP) in ~/includes/controllers/ctrl_pages_custom.inc.php on line 16
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 2 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:01:10 America/Mexico_City] Fatal error: 1146 - Table 'ec-base.db_table_pages_custom' doesn't exist
+show fields from DB_TABLE_PAGES_CUSTOM
+ in ~/includes/library/lib_database.inc.php on line 221
+ ← ~/includes/library/lib_database.inc.php on line 122 in _error()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 16 in query()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 24 in reset()
+ ← ~/includes/controllers/ctrl_pages_custom.inc.php on line 8 in load()
+ ← ~/pages/test_index.inc.php on line 2 in __construct()
+ ← ~/index.php on line 35 in include()
+Request: GET /en/test_index HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:06:29 America/Mexico_City] Warning: require(A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:06:29 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-base\public_html\admin\index.php on line 100
+[02-Feb-2018 13:07:09 America/Mexico_City] Warning: require(A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:07:09 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-base\public_html\admin\index.php on line 100
+[02-Feb-2018 13:07:23 America/Mexico_City] Warning: require(A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php): failed to open stream: No such file or directory in ~/admin/index.php on line 100
+Request: GET /admin/?app=1_leo&doc=pagelist HTTP/1.1
+Client: 127.0.0.1 (efirsa.aori.dev)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+
+[02-Feb-2018 13:07:23 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-base\public_html\admin\index.php on line 100
