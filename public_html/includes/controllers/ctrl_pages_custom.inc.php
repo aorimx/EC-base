@@ -49,7 +49,7 @@
 
         public static function loadAll(){ //Obtiene todas las pàginas
             return database::query(
-                'select * from ' .  DB_TABLE_PAGES_CUSTOM 
+                'SELECT * FROM ' .  DB_TABLE_PAGES_CUSTOM 
             );
 
         }
@@ -57,7 +57,7 @@
         public function loadSectionAsObj(){//Obtiene un listado de objetos de las secciones
             $data_aux = array();
             $query =   database::query(
-                ' select id FROM ' .  DB_TABLE_PAGES_SECTION_CUSTOM 
+                ' select id FROM ' . DB_TABLE_PAGES_SECTION_CUSTOM 
                 . ' where 	pages_custom_id=' . (int)$this->data['id']
                 . ' order by  position ASC '
             );
