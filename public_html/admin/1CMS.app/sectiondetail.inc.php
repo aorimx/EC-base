@@ -2,8 +2,8 @@
 <?php if (!empty($_GET['section_id'])){ ?>
     <ul class="list-inline pull-right">
     <li>
-        <?php echo 
-        functions::form_draw_link_button(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'hero','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_', 'Agregar nuevo componente'), '', 'add'); 
+        <?php echo
+        functions::form_draw_link_button(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente1','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_', 'Agregar nuevo componente'), '', 'add'); 
         ?>
     </li>
     </ul>
@@ -14,12 +14,12 @@
 
 
 
-<?php 
+<?php
     $page = null;
 
     if (!empty($_GET['section_id']))
         $page = new ctrl_pages_section_custom((int)$_GET['section_id']);
-    else 
+    else
         $page = new ctrl_pages_section_custom();
 
     if (!empty($_POST['save'])) {
@@ -51,7 +51,7 @@
                 $output .= '<tr class="'. (false ? ' semi-transparent' : null) .'">' . PHP_EOL
                 . '  <td>'. functions::form_draw_checkbox('products['. $component['id'] .']', $component['id'], true) .'</td>' . PHP_EOL
                 . '  <td>'. functions::draw_fonticon('fa-circle', 'style="color: '. (false && !empty($page['status']) ? '#99cc66' : '#ff6666') .';"') .'</td>' . PHP_EOL
-                . '<td>' . $component['name'] .'</td>' 
+                . '<td>' . $component['name'] .'</td>'
                 ;
                 $output .= '  <td style="text-align: right;"></td>' . PHP_EOL
                 . '  <td class="text-right"><a href="'. document::href_link('', array('app' => $_GET['app'], 'doc' => $component['edit_view'],'page_id'=>$_GET['page_id'],'section_id'=>$_GET['section_id'],'component_id' => $component['id'], )) .'" title="'. language::translate('title_edit', 'Edit') .'">'. functions::draw_fonticon('fa-pencil').'</a></td>' . PHP_EOL

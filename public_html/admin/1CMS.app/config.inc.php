@@ -23,6 +23,7 @@
 
 
       'hero' => 'component/hero.inc.php',
+      'Componente1' => 'component/Componente1.inc.php',
       'contact' => 'component/contact.inc.php',
 
       'template_settings' => 'template_settings.inc.php',
