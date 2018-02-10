@@ -1,5 +1,5 @@
 <?php
-  $page = new ctrl_pages_custom(1);    
+  $page = new ctrl_pages_custom(5);//ESTE ID SE DEBE CAMBIAR SEGUN EL ID DE LA PAGINA    
   $_page = new view();
   $_page->snippets = array(
     'page' => functions::page_getHtml($page->data),

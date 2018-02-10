@@ -48,7 +48,7 @@
                 database::query(
                     "insert into " . DB_TABLE_PAGES_CONTENT_CUSTOM .
                     " (component_content ,position,pages_section_custom_id,pages_component_custom_id)  values " .
-                    "( '" . json_encode($this->data['component_content']) . "','" . $this->data['position']  . "', '". $pages_section_custom_id . "','1')" 
+                    "( '" . json_encode($this->data['component_content']) . "','" . $this->data['position']  . "', '". $pages_section_custom_id . "','4')" //ESTE ID SE DEBE CAMBIAR PARA LOS COMPONENTES
                 );
                 $this->data['id'] = database::insert_id();   
             }else{ //Hay que actualizar
