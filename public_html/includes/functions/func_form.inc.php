@@ -233,7 +233,34 @@
 
     return '<a '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class="btn btn-default"' : '') .' href="'. htmlspecialchars($url) .'"'. (($parameters) ? ' '.$parameters : false) .'>'. ((!empty($icon)) ? $icon . ' ' : false) . $title .'</a>';
   }
+  function form_draw_link_button2($url, $title, $parameters='', $icon='') {
+    if (!empty($icon)) {
+      switch($icon) {
+        case 'add':
+          $icon = functions::draw_fonticon('fa-plus', 'style="opacity: 0;"');
+          break;
+        case 'cancel':
+          $icon = functions::draw_fonticon('fa-times');
+          break;
+        case 'delete':
+          $icon = functions::draw_fonticon('fa-trash-o');
+          break;
+        case 'on':
+          $icon = functions::draw_fonticon('fa-circle', 'style="font-size: 0.75em; color: #88cc44;"');
+          break;
+        case 'off':
+          $icon = functions::draw_fonticon('fa-circle', 'style="font-size: 0.75em; color: #ff6644;"');
+          break;
+        case 'save':
+          $icon = functions::draw_fonticon('fa-floppy-o');
+          break;
+        default:
+          $icon = functions::draw_fonticon($icon);
+      }
+    }
 
+    return '<a '. (!preg_match('#class="([^"]+)?"#', $parameters) ? 'class=" btn-default"' : '') .' href="'. htmlspecialchars($url) .'"'. (($parameters) ? ' '.$parameters : false) .'>'. ((!empty($icon)) ? $icon . ' ' : false) . $title .'</a>';
+  }
   function form_draw_month_field($name, $value=true, $parameters='') {
     if ($value === true) $value = form_reinsert_value($name);
 

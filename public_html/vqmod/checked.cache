@@ -150,3 +150,7 @@ admin/1CMS.app/pagelist.inc.php
 admin/1CMS.app/pagesection.inc.php
 admin/1CMS.app/sectiondetail.inc.php
 admin/1CMS.app/component/hero.inc.php
+admin/1CMS.app/component/Componente1.inc.php
+admin/1CMS.app/component/Componente4.inc.php
+admin/1CMS.app/component/Componente5.inc.php
+admin/1CMS.app/component/Componente2.inc.php
