@@ -392,3 +392,12 @@ INSERT INTO `lc_sold_out_statuses_info` (`id`, `sold_out_status_id`, `language_c
 (1, 1, 'en', 'Sold Out', ''),
 (2, 2, 'en', 'Temporary Sold Out', ''),
 (3, 3, 'en', 'Backorder Item', '');
+-- --------------------------------------------------------
+INSERT INTO `lc_pages_component_custom` (`id`, `name`, `edit_view`) VALUES
+(1, 'Componente1', 'Componente1'),
+(2, 'Componente2', 'Componente2'),
+(3, 'Componente3', 'Componente3'),
+(4, 'Componente4', 'Componente4'),
+(5, 'Componente5', 'Componente5'),
+(6, 'Componente6', 'Componente6'),
+(7, 'Componente7', 'Componente7');
