@@ -1896,3 +1896,73 @@ Client: 127.0.0.1 (efirsa.aori.dev)
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
 
 [02-Feb-2018 13:07:23 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'A:/web/aori/EC-base/public_html/admin/1_leo.app/config.inc.php' (include_path='C:\xampp\php\PEAR') in A:\web\aori\EC-base\public_html\admin\index.php on line 100
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 6 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 11 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 16 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 21 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 26 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 31 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
+[12-Feb-2018 13:55:43 America/Mexico_City] Warning: Unknown font icon (add) in ~/includes/functions/func_draw.inc.php on line 27
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 258 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_link_button2()
+ ← ~/admin/1CMS.app/sectiondetail.inc.php on line 36 in __callstatic()
+ ← ~/admin/index.php on line 125 in include()
+Request: GET /EC-base/public_html/admin/?app=1CMS&doc=sectiondetail&page_id=1&section_id=1 HTTP/1.1
+Client: ::1 (localhost)
+User Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Mobile Safari/537.36
+
