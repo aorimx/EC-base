@@ -1,6 +1,8 @@
 .container-comp2_multimedia{
   width: 100%;
   display: inline-flex;
+  padding-left: 48px;
+  padding-right: 48px;
   .video-container{
     width: 40%;
     display: flex;
@@ -20,6 +22,7 @@
     width: 60%;
     h1{
       text-transform: uppercase;
+      text-align: center;
     }
     p{
       text-align: start;

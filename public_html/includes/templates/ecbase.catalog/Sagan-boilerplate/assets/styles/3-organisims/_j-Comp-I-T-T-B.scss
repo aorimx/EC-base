@@ -16,17 +16,27 @@
   .description{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     padding-left: $space-2;
     width: 60%;
-    h1{
-      text-transform: uppercase;
+    .title-text{
+      justify-content: start;
+        h1{
+          text-align: start;
+          text-transform: uppercase;
+
+        }
+        p{
+          text-align: start;
+          text-transform: capitalize;
+          font-size: $space-2;
+        }
     }
-    p{
-      text-align: start;
-    }
+    .button-content{
+
     button{
       width: 40%;
+      }
     }
   }
   @media screen and (max-width: 768px){
@@ -37,15 +47,18 @@
     .description{
       padding-left: 0;
       width: 100%;
-      h1{
-        text-align: center;
-      }
-      p{
-        text-align: center;
-      }
-      button{
-        width: 100%;
-      }
+      .title-text{
+        h1{
+          text-align: center;
+        }
+        p{
+          text-align: center;
+        }
+      }.button-content{
+        button{
+          width: 100%;
+        }
+    }
     }
   }
 }
