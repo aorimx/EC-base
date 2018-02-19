@@ -34,11 +34,11 @@
 ?>
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_storage_encoding', 'Storage Encoding'); ?></h1>
 
-<p><?php echo language::translate('description_set_mysql_collation', 'This will recursively convert the charset and collation for all selected database tables and belonging columns.'); ?></p>
+<p style="margin-top: -300px"><?php echo language::translate('description_set_mysql_collation', 'This will recursively convert the charset and collation for all selected database tables and belonging columns.'); ?></p>
 
-<?php echo functions::form_draw_form_begin('mysql_collation_form', 'post', false, false, 'style="width: 640px;"'); ?>
+<?php echo functions::form_draw_form_begin('mysql_collation_form', 'post', false, false, ' class="form-storage"'); ?>
 
-  <div class="form-group">
+  <div class="form-group" style="width: 50%;">
     <label><?php echo language::translate('title_database_tables', 'Database Tables'); ?></label>
 <?php
   $options = array();
@@ -59,19 +59,20 @@
 
   </div>
 
-  <div class="form-group">
+  <div class="form-group" style="width: 50%; align-items: right; text-align: right; padding-left:48px;">
     <label><?php echo language::translate('title_collation', 'Collation'); ?></label>
     <?php echo functions::form_draw_mysql_collations_list('collation'); ?>
-  </div>
-
-  <div class="form-group">
     <div class="checkbox">
       <label><?php echo functions::form_draw_checkbox('set_database_default', 'true'); ?> <?php echo language::translate('text_also_set_as_database_default', 'Also set as database default (when new tables are created)'); ?></label>
     </div>
+    <?php echo functions::form_draw_button('convert', language::translate('title_convert', 'Convert'), 'submit'); ?>
   </div>
 
-  <p class="btn-group">
-    <?php echo functions::form_draw_button('convert', language::translate('title_convert', 'Convert'), 'submit'); ?>
+  <div class="form-group" style="width: 50%;">
+
+  </div>
+
+  <p class="btn-group" style="width: 50%;">
   </p>
 
 <?php echo functions::form_draw_form_end(); ?>

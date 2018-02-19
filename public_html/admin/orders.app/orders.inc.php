@@ -51,7 +51,7 @@
 </style>
 
 <?php echo functions::form_draw_form_begin('search_form', 'get') . functions::form_draw_hidden_field('app', true) . functions::form_draw_hidden_field('doc', true); ?>
-<ul class="list-inline pull-right">
+<ul class="list-inline pull-right order-ul">
   <li><?php echo functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_phrase_or_keyword', 'Search phrase or keyword').'"'); ?></li>
   <li><?php echo functions::form_draw_order_status_list('order_status_id', true); ?></li>
   <li><?php echo functions::form_draw_select_field('payment_option_name', $payment_options, true); ?></li>
@@ -63,7 +63,7 @@
 
 <?php echo functions::form_draw_form_begin('orders_form', 'post'); ?>
 
-  <table class="table table-striped data-table">
+  <table class="table table-striped data-table table-order">
     <thead>
       <tr>
         <th><?php echo functions::draw_fonticon('fa-check-square-o fa-fw checkbox-toggle', 'data-toggle="checkbox-toggle"'); ?></th>

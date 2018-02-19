@@ -146,7 +146,7 @@
 
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_csv_import_export', 'CSV Import/Export'); ?></h1>
 
-<div class="row">
+<div class="row csv">
   <div class="col-md-3">
 
     <fieldset>
@@ -218,7 +218,7 @@
         </div>
 
         <div class="form-group">
-          <label><?php echo language::translate('title_output', 'Output'); ?></label>
+          <label style="margin-top: 24px"><?php echo language::translate('title_output', 'Output'); ?></label>
           <?php echo functions::form_draw_select_field('output', array(array(language::translate('title_file', 'File'), 'file'), array(language::translate('title_screen', 'Screen'), 'screen')), true, false); ?>
         </div>
 

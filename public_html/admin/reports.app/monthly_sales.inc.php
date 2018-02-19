@@ -14,8 +14,16 @@
 ?>
 
 <style>
+form{
+  margin-top: -350px!important;
+}
+form ul{
+  padding: 0;
+}
 form[name="filter_form"] li {
   vertical-align: middle;
+  list-style: none;
+  text-align: left;
 }
 </style>
 
@@ -37,7 +45,7 @@ form[name="filter_form"] li {
 
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_monthly_sales', 'Monthly Sales'); ?></h1>
 
-<table class="table table-striped data-table">
+<table class="table table-striped data-table monthly-table">
   <thead>
     <tr>
       <th width="100%"><?php echo language::translate('title_month', 'Month'); ?></th>

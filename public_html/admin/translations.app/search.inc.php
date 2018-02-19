@@ -63,6 +63,18 @@
   functions::draw_lightbox();
 ?>
 <style>
+form{
+  margin-top: 25px!important;
+  margin-bottom: -75px;
+}
+.pagination{
+  order: 3!important;
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 80%!important;
+  margin-top: 75px;
+}
 ul.filter li {
   display: table-cell;
   vertical-align: middle;
@@ -79,7 +91,7 @@ ul.filter li {
 
 <?php echo functions::form_draw_form_begin('search_form', 'get', document::link('')); ?>
 <?php echo functions::form_draw_hidden_field('app') . functions::form_draw_hidden_field('doc'); ?>
-<ul class="filter list-inline pull-right" style="margin: 0 auto;">
+<ul class="filter list-inline pull-right ul-search">
   <li>
     <?php echo functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_phrase_or_keyword') .'"'); ?>
   </li>
@@ -115,13 +127,13 @@ ul.filter li {
 ?>
   </li>
 
-  <li>
+  <!--<li>
     <label><?php echo functions::form_draw_checkbox('modules', 'true'); ?> <?php echo language::translate('text_inlcude_modules', 'Include modules'); ?></label><br />
     <label><?php echo functions::form_draw_checkbox('untranslated', 'true'); ?> <?php echo language::translate('text_only_untranslated', 'Only untranslated'); ?></label>
-  </li>
+  </li>-->
 
   <li>
-    <label><?php echo language::translate('title_languages', 'Languages'); ?></label>
+    <!--<label><?php echo language::translate('title_languages', 'Languages'); ?></label>-->
     <div><?php foreach (array_keys($languages) as $language_code) echo '<span style="padding: 0.25em;">'. functions::form_draw_checkbox('languages[]', $language_code) .' '. $language_code .'</span>'; ?></div>
   </li>
 
