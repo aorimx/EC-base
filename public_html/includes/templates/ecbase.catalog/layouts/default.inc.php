@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div id="page" class="twelve-eighty shadow">
+<div id="page">
 
   <header style="display: none;" id="header" class="row nowrap center">
 
@@ -40,7 +40,7 @@
     <div class="j-wrap">
       <div class="middle-content">
         {snippet:content}
-        <a href="<?php echo  document::ilink('page1'); ?>"><button>Page1</button></a>
+        <a href="<?php echo  document::ilink('page1'); ?>"><button style="margin-top: 150px;">Page1</button></a>
         <div style="clear: both;"></div>
       </div>
     </div>
