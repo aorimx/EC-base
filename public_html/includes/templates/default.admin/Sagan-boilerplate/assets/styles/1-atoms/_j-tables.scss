@@ -25,12 +25,12 @@ table {
         color: $gray-ghost; //Utilizamos este color por tener un color muy cercano al blanco con distinción del
       }
       &:first-child {
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
       }
       &:last-child {
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
       }
     }
   }
