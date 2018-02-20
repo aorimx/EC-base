@@ -1140,7 +1140,8 @@ html, body, .page {
       width: 49%;
       order: 2;
       height: 48px;
-      text-align: right; }
+      text-align: right;
+      list-style: none; }
     .page main table {
       order: 3;
       margin-top: -450px; }
