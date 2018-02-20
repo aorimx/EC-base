@@ -7,11 +7,33 @@ html, body, .page {
   display: flex;
   align-items: stretch;
   main{
+    #notices{
+      display: none;
+    }
+    .main-admin{
+      width: 100%;
+      margin-top: 48px;
+      .ul-admin{
+        width: 100%;
+        li{
+          display: none;
+        }
+        li:nth-child(2) {
+          display: block;
+          .panel-heading{
+            text-align: left;
+          }
+          .row{
+            justify-content: space-between;
+          }
+        }
+      }
+    }
     width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
     .csv{
-      margin-top: 0!important;
+      margin-top: -400!important;
     }
     .row{
       display: inline-flex;
@@ -93,7 +115,10 @@ html, body, .page {
         margin-top: 175px!important;
       }
       .table-striped{
-        margin-top: 100px;
+        margin-top: -150px;
+      }
+      .search-table{
+        margin-top: 50px;
       }
       .slide-table{
         margin-top: 0px!important;
