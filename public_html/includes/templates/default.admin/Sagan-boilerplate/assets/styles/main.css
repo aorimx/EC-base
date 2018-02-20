@@ -1091,8 +1091,23 @@ html, body, .page {
     width: 100%;
     display: inline-flex;
     flex-wrap: wrap; }
+    .page main #notices {
+      display: none; }
+    .page main .main-admin {
+      width: 100%;
+      margin-top: 48px; }
+      .page main .main-admin .ul-admin {
+        width: 100%; }
+        .page main .main-admin .ul-admin li {
+          display: none; }
+        .page main .main-admin .ul-admin li:nth-child(2) {
+          display: block; }
+          .page main .main-admin .ul-admin li:nth-child(2) .panel-heading {
+            text-align: left; }
+          .page main .main-admin .ul-admin li:nth-child(2) .row {
+            justify-content: space-between; }
     .page main .csv {
-      margin-top: 0 !important; }
+      margin-top: -400 !important; }
     .page main .row {
       display: inline-flex;
       width: 100%;
@@ -1125,7 +1140,8 @@ html, body, .page {
       width: 49%;
       order: 2;
       height: 48px;
-      text-align: right; }
+      text-align: right;
+      list-style: none; }
     .page main table {
       order: 3;
       margin-top: -450px; }
@@ -1153,7 +1169,9 @@ html, body, .page {
       .page main form .vqmods-table {
         margin-top: 175px !important; }
       .page main form .table-striped {
-        margin-top: 100px; }
+        margin-top: -150px; }
+      .page main form .search-table {
+        margin-top: 50px; }
       .page main form .slide-table {
         margin-top: 0px !important; }
       .page main form .user-table {

@@ -143,7 +143,7 @@ ul.filter li {
 
 <?php echo functions::form_draw_form_begin('translation_form', 'post'); ?>
 
-  <table class="table table-striped">
+  <table class="table table-striped search-table">
     <thead>
       <tr>
         <th><?php echo language::translate('title_code', 'Code'); ?></th>

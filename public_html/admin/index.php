@@ -106,7 +106,7 @@
         $_page = new view();
         $_page->snippets = array(
           'app' => $_GET['app'],
-          'doc' => !empty($_GET['doc']) ? $_GET['doc'] : $app_config['default'],
+          'doc' => !empty($_GET['doc']) ? $_GET['doc'] : $app_config['pagelist'],
           'theme' => array(
             'icon' => !empty($app_config['theme']['icon']) ? $app_config['theme']['icon'] : 'fa-plus',
             'color' => !empty($app_config['theme']['color']) ? $app_config['theme']['color'] : '#97a3b5',
@@ -124,7 +124,7 @@
           if (empty($app_config['docs'][$_GET['doc']]) || !file_exists(FS_DIR_HTTP_ROOT . WS_DIR_ADMIN . $_GET['app'].'.app/' . $app_config['docs'][$_GET['doc']])) trigger_error($_GET['app'] .'.app/'. htmlspecialchars($_GET['doc']) . ' is not a valid admin document', E_USER_ERROR);
           include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_ADMIN . $_GET['app'].'.app/' . $app_config['docs'][$_GET['doc']]);
         } else {
-          include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_ADMIN . $_GET['app'].'.app/' . $app_config['docs'][$app_config['default']]);
+          include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_ADMIN . $_GET['app'].'.app/' . $app_config['docs'][$app_config['pagelist']]);
         }
         $_page->snippets['doc'] = ob_get_clean();
 
