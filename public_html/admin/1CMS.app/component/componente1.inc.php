@@ -63,7 +63,7 @@
   <?php echo functions::form_draw_form_begin('hero_form', 'post', false, true, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
   <label for="title" >Title</label>
   <?php echo functions::form_draw_input('title',(isset($compoment_content->data['component_content']['title'])?$compoment_content->data['component_content']['title']:'')); ?>
-  <label for="subtitle">Subtitle</label>
+  <label for="subtitle">Paragraph</label>
   <?php echo functions::form_draw_input('subtitle',(isset($compoment_content->data['component_content']['subtitle'])?$compoment_content->data['component_content']['subtitle']:'')); ?>
   <label for="btn_title">Button title</label>
   <?php echo functions::form_draw_input('btn_title',(isset($compoment_content->data['component_content']['btn_title'])?$compoment_content->data['component_content']['btn_title']:'')); ?>

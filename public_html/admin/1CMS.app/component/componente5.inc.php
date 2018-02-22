@@ -63,17 +63,17 @@
   <?php echo functions::form_draw_form_begin('hero_form', 'post', false, true, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
   <label for="title" >Title</label>
   <?php echo functions::form_draw_input('title',(isset($compoment_content->data['component_content']['title'])?$compoment_content->data['component_content']['title']:'')); ?>
-  <label for="subtitle">Subtitle</label>
+  <label for="subtitle">Paragraph</label>
   <?php echo functions::form_draw_input('subtitle',(isset($compoment_content->data['component_content']['subtitle'])?$compoment_content->data['component_content']['subtitle']:'')); ?>
   <label for="btn_title">Button title</label>
   <?php echo functions::form_draw_input('btn_title',(isset($compoment_content->data['component_content']['btn_title'])?$compoment_content->data['component_content']['btn_title']:'')); ?>
   <label for="btn_link">Button link</label>
   <?php echo functions::form_draw_input('btn_link',(isset($compoment_content->data['component_content']['btn_link'])?$compoment_content->data['component_content']['btn_link']:'')); ?>
-  <label><?php echo language::translate('title_new_image', 'New Image'); ?></label>
+  <!--<label><?php /*echo language::translate('title_new_image', 'New Image'); ?></label>
   <?php echo functions::form_draw_file_field('image', ''); ?>
   <div class="thumbnail" style="padding: 1em; display: inline-block;  margin-top: 1em;">
-    <img src="<?php echo functions::image_thumbnail(FS_DIR_HTTP_ROOT . WS_DIR_IMAGES . 'hero.png', 500, 500, 'FIT_ONLY_BIGGER'); ?>" alt="" />
-  </div>
+    <img src="<?php echo functions::image_thumbnail(FS_DIR_HTTP_ROOT . WS_DIR_IMAGES . 'hero.png', 500, 500, 'FIT_ONLY_BIGGER'); */?>" alt="" />
+  </div>-->
   <p class="btn-group">
       <?php echo functions::form_draw_button('save', language::translate('title_save', 'Save'), 'submit', '', 'save'); ?>
       <?php echo functions::form_draw_button('cancel', language::translate('title_cancel', 'Cancel'), 'button', 'onclick="history.go(-1);"', 'cancel'); ?>
