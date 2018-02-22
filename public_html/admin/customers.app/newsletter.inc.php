@@ -35,7 +35,7 @@
   <a class="btn btn-default<?php echo (isset($_GET['template']) && $_GET['template'] == 'csv') ? ' active' : null; ?>" href="<?php echo document::href_link('', array('template' => 'csv'), array('app', 'doc')); ?>">CSV</a>
 </ul>
 
-<div class="row" style="margin-bottom: 2em; margin-top: -250px;">
+<div class="row" style="margin-bottom: 2em; margin-top: -400px;">
   <div class="col-md-6">
     <h2><?php echo language::translate('title_customers', 'Customers'); ?></h2>
 <?php

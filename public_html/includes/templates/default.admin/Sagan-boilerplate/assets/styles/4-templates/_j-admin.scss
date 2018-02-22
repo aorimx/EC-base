@@ -7,187 +7,98 @@ html, body, .page {
   display: flex;
   align-items: stretch;
   main{
-    #notices{
-      display: none;
-    }
-    .main-admin{
-      width: 100%;
-      margin-top: 48px;
-      .ul-admin{
-        width: 100%;
-        li{
-          display: none;
-        }
-        li:nth-child(2) {
-          display: block;
-          .panel-heading{
-            text-align: left;
-          }
-          .row{
-            justify-content: space-between;
-          }
-        }
-      }
-    }
-    width: 100%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    .csv{
-      margin-top: -400!important;
-    }
-    .row{
-      display: inline-flex;
-      width: 100%;
-      order: 2;
-      margin-top: -375px;
-      .col-md-3{
-        width: 35%;
-        fieldset{
-          form{
-            margin-top: 0px;
-          }
-        }
-      }
-      .col-md-6{
-        width: 49%;
-        h2{
-          order: 1;
-        }
-        form{
-          width: 100%;
-          max-width: none !important;
-          margin-top: 0;
-          display: block;
-        }
-      }
-    }
     span{
       display: none;
     }
-    h1{
-      width: 49%;
-      order: 1;
-      height: 48px;
-    }
-    h2{
-      order: 2;
-    }
-    p{
-      order: 3;
-    }
-    ul{
-      width: 49%;
-      order: 2;
-      height: 48px;
-      text-align: right;
-      list-style: none;
-    }
-    table{
-      order: 3;
-      margin-top: -450px;
-    }
-    .form-storage{
-      display: inline-flex!important;
-      flex-wrap: wrap;
+    //header admin
+    .header-admin{
+      display: inline-flex;
       width: 100%;
-    }
-    .monthly-table{
-      margin-top: -550px!important;
-    }
-    .most-sold-table{
-      margin-top: -550px!important;
-    }
-    .most-shopping-table{
-      margin-top: -500px!important;
-    }
-    form{
-      order: 3;
-      width: 100%;
-      max-width: none!important;
-      margin-top: -450px;
-      display: block;
-      .ul-search{
-        margin-top: 0px;
-        display: inline-flex;
-        justify-content: space-between;
-        width: 65%;
+      justify-content: space-between;
+      h1{
+        order: 1;
       }
-      .vqmods-table{
-        margin-top: 175px!important;
-      }
-      .table-striped{
-        margin-top: -150px;
-      }
-      .search-table{
-        margin-top: 50px;
-      }
-      .slide-table{
-        margin-top: 0px!important;
-      }
-      .user-table{
-        margin-top: 0px!important;
-      }
-      .tax-table{
-        margin-top: 0px!important;
-      }
-      .tax-classes-table{
-        margin-top: 0px!important;
-      }
-      .order-ul{
-        margin-top: 104px;
+      ul{
+        order: 2;
         list-style: none;
       }
-      .contries{
-        margin-top: 450px;
+    }
+    //doc pagelist styles
+    .pagelist-table{
+      margin-top: 0px;
+    }
+    //doc pagesection styles
+    .pagesection-form-group{
+      width: 100%;
+    }
+    .pagesection-btn-group{
+      width: 100%;
+    }
+    //doc catalog styles
+    .catalog-ul{
+      form{
+        height: 48px;
+        .input-group{
+          height: auto;
+        }
       }
-      .currencies{
-        margin-top: 0;
+    }
+    
+    //doc section ditail
+    .header-admin{
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-between;
+      h1{
+        order: 1;
+        width: 70%;
       }
-      .customers{
-        margin-top: 0;
-      }
-      .geo{
-        margin-top: 0;
-      }
-      .lenguages{
-        margin-top: 0;
-      }
-      .table-order{
-        margin-top: 0px;
-      }
-      .table-pages{
-        margin-top: 0px;
-      }
-      table{
-        width: 100%;
-        margin-top: -200px;
-      }
-      .thumbnail{
-        display: none!important;
-      }
-      .btn-group{
-        width: 25%;
+      div{
+        order: 2;
+        width: 30%;
+        height: 31px;
+        min-width: 300px;
+        max-width: 320px;
         display: inline-flex;
-        justify-content: space-between;
-        button{
-          width: 50%;
-        }
-      }
-      .form-group{
-        width: 75%;
-        input{
-          border-style: solid;
-          border-color: black;
-          border-width: .5px;
-        }
-        .select-wrapper{
-          select{
-            border-color: black;
+        justify-content: right;
+        border-width: .5px;
+        cursor: pointer;
+        ul{
+          list-style: none;
+          position: absolute;
+          z-index: 4;
+          min-width: 320px;
+          padding-left: 0;
+          line-height: 32px;
+          li{
+            margin-bottom: 0;
             border-style: solid;
+            border-top-color: transparent;
+            border-right-color: green;
+            border-left-color: green;
+            border-bottom-color: green;
             border-width: .5px;
+            padding-left: 8px;
+            svg{
+              margin-left: 16px;
+              margin-bottom: 2px;
+            }
+          }
+          li:first-child{
+            border-top-color: green;
+          }
+          .li_pages{
+            display: none;
+            z-index: 3;
           }
         }
       }
+    }
+    .sectiondetail-form-group{
+      width: 100%;
+    }
+    .sectiondetail-btn-group{
+      width: 100%;
     }
   }
 }

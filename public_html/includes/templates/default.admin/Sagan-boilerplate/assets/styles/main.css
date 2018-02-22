@@ -1087,137 +1087,72 @@ html, body, .page {
 .page {
   display: flex;
   align-items: stretch; }
-  .page main {
-    width: 100%;
+  .page main span {
+    display: none; }
+  .page main .header-admin {
     display: inline-flex;
-    flex-wrap: wrap; }
-    .page main #notices {
-      display: none; }
-    .page main .main-admin {
-      width: 100%;
-      margin-top: 48px; }
-      .page main .main-admin .ul-admin {
-        width: 100%; }
-        .page main .main-admin .ul-admin li {
-          display: none; }
-        .page main .main-admin .ul-admin li:nth-child(2) {
-          display: block; }
-          .page main .main-admin .ul-admin li:nth-child(2) .panel-heading {
-            text-align: left; }
-          .page main .main-admin .ul-admin li:nth-child(2) .row {
-            justify-content: space-between; }
-    .page main .csv {
-      margin-top: -400 !important; }
-    .page main .row {
-      display: inline-flex;
-      width: 100%;
+    width: 100%;
+    justify-content: space-between; }
+    .page main .header-admin h1 {
+      order: 1; }
+    .page main .header-admin ul {
       order: 2;
-      margin-top: -375px; }
-      .page main .row .col-md-3 {
-        width: 35%; }
-        .page main .row .col-md-3 fieldset form {
-          margin-top: 0px; }
-      .page main .row .col-md-6 {
-        width: 49%; }
-        .page main .row .col-md-6 h2 {
-          order: 1; }
-        .page main .row .col-md-6 form {
-          width: 100%;
-          max-width: none !important;
-          margin-top: 0;
-          display: block; }
-    .page main span {
-      display: none; }
-    .page main h1 {
-      width: 49%;
-      order: 1;
-      height: 48px; }
-    .page main h2 {
-      order: 2; }
-    .page main p {
-      order: 3; }
-    .page main ul {
-      width: 49%;
-      order: 2;
-      height: 48px;
-      text-align: right;
       list-style: none; }
-    .page main table {
-      order: 3;
-      margin-top: -450px; }
-    .page main .form-storage {
-      display: inline-flex !important;
-      flex-wrap: wrap;
-      width: 100%; }
-    .page main .monthly-table {
-      margin-top: -550px !important; }
-    .page main .most-sold-table {
-      margin-top: -550px !important; }
-    .page main .most-shopping-table {
-      margin-top: -500px !important; }
-    .page main form {
-      order: 3;
-      width: 100%;
-      max-width: none !important;
-      margin-top: -450px;
-      display: block; }
-      .page main form .ul-search {
-        margin-top: 0px;
-        display: inline-flex;
-        justify-content: space-between;
-        width: 65%; }
-      .page main form .vqmods-table {
-        margin-top: 175px !important; }
-      .page main form .table-striped {
-        margin-top: -150px; }
-      .page main form .search-table {
-        margin-top: 50px; }
-      .page main form .slide-table {
-        margin-top: 0px !important; }
-      .page main form .user-table {
-        margin-top: 0px !important; }
-      .page main form .tax-table {
-        margin-top: 0px !important; }
-      .page main form .tax-classes-table {
-        margin-top: 0px !important; }
-      .page main form .order-ul {
-        margin-top: 104px;
-        list-style: none; }
-      .page main form .contries {
-        margin-top: 450px; }
-      .page main form .currencies {
-        margin-top: 0; }
-      .page main form .customers {
-        margin-top: 0; }
-      .page main form .geo {
-        margin-top: 0; }
-      .page main form .lenguages {
-        margin-top: 0; }
-      .page main form .table-order {
-        margin-top: 0px; }
-      .page main form .table-pages {
-        margin-top: 0px; }
-      .page main form table {
-        width: 100%;
-        margin-top: -200px; }
-      .page main form .thumbnail {
-        display: none !important; }
-      .page main form .btn-group {
-        width: 25%;
-        display: inline-flex;
-        justify-content: space-between; }
-        .page main form .btn-group button {
-          width: 50%; }
-      .page main form .form-group {
-        width: 75%; }
-        .page main form .form-group input {
+  .page main .pagelist-table {
+    margin-top: 0px; }
+  .page main .pagesection-form-group {
+    width: 100%; }
+  .page main .pagesection-btn-group {
+    width: 100%; }
+  .page main .catalog-ul form {
+    height: 48px; }
+    .page main .catalog-ul form .input-group {
+      height: auto; }
+  .page main .header-admin {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between; }
+    .page main .header-admin h1 {
+      order: 1;
+      width: 70%; }
+    .page main .header-admin div {
+      order: 2;
+      width: 30%;
+      height: 31px;
+      min-width: 300px;
+      max-width: 320px;
+      display: inline-flex;
+      justify-content: right;
+      border-width: .5px;
+      cursor: pointer; }
+      .page main .header-admin div ul {
+        list-style: none;
+        position: absolute;
+        z-index: 4;
+        min-width: 320px;
+        padding-left: 0;
+        line-height: 32px; }
+        .page main .header-admin div ul li {
+          margin-bottom: 0;
           border-style: solid;
-          border-color: black;
-          border-width: .5px; }
-        .page main form .form-group .select-wrapper select {
-          border-color: black;
-          border-style: solid;
-          border-width: .5px; }
+          border-top-color: transparent;
+          border-right-color: green;
+          border-left-color: green;
+          border-bottom-color: green;
+          border-width: .5px;
+          padding-left: 8px; }
+          .page main .header-admin div ul li svg {
+            margin-left: 16px;
+            margin-bottom: 2px; }
+        .page main .header-admin div ul li:first-child {
+          border-top-color: green; }
+        .page main .header-admin div ul .li_pages {
+          display: none;
+          z-index: 3; }
+  .page main .sectiondetail-form-group {
+    width: 100%; }
+  .page main .sectiondetail-btn-group {
+    width: 100%; }
 
 #sidebar {
   width: 250px;

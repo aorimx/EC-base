@@ -34,7 +34,7 @@
 ?>
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_logotype', 'Logotype'); ?></h1>
 
-<?php echo functions::form_draw_form_begin('logotype_form', 'post', false, true, 'style="max-width: 320px;"'); ?>
+<?php echo functions::form_draw_form_begin('logotype_form', 'post', false, true, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
 
   <div class="thumbnail" style="padding: 1em; display: inline-block;  margin-top: 1em;">
     <img src="<?php echo functions::image_thumbnail(FS_DIR_HTTP_ROOT . WS_DIR_IMAGES . 'logotype.png', 500, 500, 'FIT_ONLY_BIGGER'); ?>" alt="" />

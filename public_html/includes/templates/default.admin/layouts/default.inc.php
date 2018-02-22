@@ -59,6 +59,7 @@
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script defer src="{snippet:template_path}Sagan-boilerplate/assets/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
 {snippet:javascript}
 </body>
 </html>

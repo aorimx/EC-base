@@ -1,13 +1,15 @@
 <!-- START HEADER -->
-<ul class="list-inline pull-right">
-  <li>
-    <?php echo 
-      functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'pagesection','new'=>true)), language::translate('title_add_new_page', 'Agregar nueva pàgina'), '', 'add'); 
-    ?>
-  </li>
-</ul>
+<div class="header-admin">
+  <ul class="list-inline pull-right">
+    <li>
+      <?php echo
+        functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'pagesection','new'=>true)), language::translate('title_add_new_page', 'Agregar nueva pàgina'), '', 'add');
+      ?>
+    </li>
+  </ul>
 
-<h1><?php echo $app_icon; ?> Page list  </h1>
+  <h1><?php echo $app_icon; ?> Page list  </h1>
+</div>
 
 <!-- END HEADER -->
 
@@ -28,8 +30,8 @@
         $output .= '<tr class="'. (false ? ' semi-transparent' : null) .'">' . PHP_EOL
                  . '  <td>'. functions::form_draw_checkbox('products['. $page['id'] .']', $page['id'], true) .'</td>' . PHP_EOL
                  . '  <td>'. functions::draw_fonticon('fa-circle', 'style="color: '. (!empty($page['status']) ? '#99cc66' : '#ff6666') .';"') .'</td>' . PHP_EOL
-                 . '<td>' . $page['title'] .'</td>' 
-                 . '<td>' . $page['meta_description'] .'</td>' 
+                 . '<td>' . $page['title'] .'</td>'
+                 . '<td>' . $page['meta_description'] .'</td>'
                  ;
         $output .= '  <td style="text-align: right;"></td>' . PHP_EOL
                  . '  <td class="text-right"><a href="'. document::href_link('', array('app' => $_GET['app'], 'doc' => 'pagesection', 'page_id' => $page['id'] )) .'" title="'. language::translate('title_edit', 'Edit') .'">'. functions::draw_fonticon('fa-pencil').'</a></td>' . PHP_EOL
@@ -43,7 +45,7 @@
 
 
 
-<table class="table table-striped data-table">
+<table class="table table-striped data-table pagelist-table">
     <thead>
         <tr>
         <th><?php echo functions::draw_fonticon('fa-check-square-o fa-fw checkbox-toggle', 'data-toggle="checkbox-toggle"'); ?></th>
