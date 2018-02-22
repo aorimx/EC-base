@@ -1098,6 +1098,12 @@ html, body, .page {
     .page main .header-admin ul {
       order: 2;
       list-style: none; }
+  .page main #notices {
+    display: none; }
+  .page main #box-widgets-wrapper ul li {
+    display: none; }
+  .page main #box-widgets-wrapper ul li:nth-child(2) {
+    display: block; }
   .page main .pagelist-table {
     margin-top: 0px; }
   .page main .pagesection-form-group {

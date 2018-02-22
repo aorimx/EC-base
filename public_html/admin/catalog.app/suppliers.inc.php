@@ -1,9 +1,10 @@
-<ul class="list-inline pull-right">
-  <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc' => 'edit_supplier')), language::translate('title_add_new_supplier', 'Add New Supplier'), '', 'add'); ?></li>
-</ul>
+<div class="header-admin">
+  <ul class="list-inline pull-right">
+    <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc' => 'edit_supplier')), language::translate('title_add_new_supplier', 'Add New Supplier'), '', 'add'); ?></li>
+  </ul>
 
-<h1><?php echo $app_icon; ?> <?php echo language::translate('title_suppliers', 'Suppliers'); ?></h1>
-
+  <h1><?php echo $app_icon; ?> <?php echo language::translate('title_suppliers', 'Suppliers'); ?></h1>
+</div>
 <?php echo functions::form_draw_form_begin('suppliers_form', 'post'); ?>
 
   <table class="table table-striped data-table">

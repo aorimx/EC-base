@@ -21,12 +21,24 @@
   }
 
 ?>
-<ul class="list-inline pull-right">
-  <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc' => 'edit_manufacturer')), language::translate('title_add_new_manufacturer', 'Add New Manufacturer'), '', 'add'); ?></li>
-</ul>
+<div class="header-admin">
+  <ul class="list-inline pull-right">
+    <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc' => 'edit_manufacturer')), language::translate('title_add_new_manufacturer', 'Add New Manufacturer'), '', 'add'); ?></li>
+  </ul>
 
-<h1><?php echo $app_icon; ?> <?php echo language::translate('title_manufacturers', 'Manufacturers'); ?></h1>
+  <h1><?php echo $app_icon; ?> <?php echo language::translate('title_manufacturers', 'Manufacturers'); ?></h1>
 
+</div>
+<style>
+form{
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+table{
+  width: 100%;
+}
+</style>
 <?php echo functions::form_draw_form_begin('manufacturers_form', 'post'); ?>
 
   <table class="table table-striped data-table">
