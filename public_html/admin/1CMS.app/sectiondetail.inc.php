@@ -1,44 +1,59 @@
 <!-- START HEADER -->
+  <div class="header-admin">
 <?php if (!empty($_GET['section_id'])){ ?>
-    <ul style="list-style: none;">
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente1','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_', 'Agregar nuevo componente'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente2','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_2', 'Agregar nuevo componente2'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente3','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_3', 'Agregar nuevo componente3'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente4','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_4', 'Agregar nuevo componente4'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente5','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_5', 'Agregar nuevo componente5'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente6','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_6', 'Agregar nuevo componente6'), '', 'add');
-            ?>
-        </li>
-        <li>
-            <?php echo
-            functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'hero','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_70', 'Agregar nuevo hero'), '', 'add');
-            ?>
-        </li>
-    </ul>
+<script>
+$(document).ready(function(){
+    $("li").click(function(){
+        $(".li_pages").toggle();
+    });
+});
+</script>
+    <div>
+      <ul class="ul-pages">
+          <li>
+            SELECCIONE UN COMPONENTE
+            <i class="fas fa-sort-down"></i>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente1','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_', 'Agregar nuevo componente'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente2','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_2', 'Agregar nuevo componente2'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente3','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_3', 'Agregar nuevo componente3'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente4','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_4', 'Agregar nuevo componente4'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente5','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_5', 'Agregar nuevo componente5'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'Componente6','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_6', 'Agregar nuevo componente6'), '', 'add');
+              ?>
+          </li>
+          <li class="li_pages">
+              <?php echo
+              functions::form_draw_link_button2(document::link('', array('app' => $_GET['app'],'page_id'=>$_GET['page_id'], 'doc'=> 'hero','section_id'=>(int)$_GET['section_id'],'new'=>true)), language::translate('title_add_new_70', 'Agregar nuevo hero'), '', 'add');
+              ?>
+          </li>
+      </ul>
+    </div>
 <?php } ?>
-<h1><?php echo $app_icon; ?> Section detail  </h1>
+    <h1><?php echo $app_icon; ?> Section detail  </h1>
+  </div>
 <!-- END HEADER -->
 
 
@@ -94,15 +109,15 @@
 
 
 
-<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px;"'); ?>
+<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
 
-  <div class="form-group">
+  <div class="form-group sectiondetail-form-group">
     <label for="title" >Name</label>
     <?php echo functions::form_draw_input('name',$page->data['name']); ?>
   </div>
 
 
-  <p class="btn-group">
+  <p class="btn-group sectiondetail-btn-group">
     <?php echo functions::form_draw_button('save', language::translate('page_save', 'Save'), 'submit', '', 'save'); ?>
     <?php echo functions::form_draw_button('cancel', language::translate('page_cancel', 'Cancel'), 'button', 'onclick="history.go(-1);"', 'cancel'); ?>
     <?php echo (isset($page->data['id'])) ? functions::form_draw_button('delete', language::translate('title_delete', 'Delete'), 'submit', 'onclick="if (!confirm(\''. language::translate('text_are_you_sure', 'Are you sure?') .'\')) return false;"', 'delete') : false; ?>

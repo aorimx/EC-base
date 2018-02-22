@@ -70,9 +70,9 @@
 ?>
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_template', 'Template'); ?></h1>
 
-<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px;"'); ?>
+<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
 
-  <div class="form-group">
+  <div class="form-group" style="width: 80%;">
     <label><?php echo language::translate('title_catalog_template', 'Catalog Template'); ?></label>
       <div class="input-group">
         <?php echo functions::form_draw_templates_list('catalog', 'template_catalog', empty($_POST['template_catalog']) ? settings::get('store_template_catalog') : true); ?>
@@ -82,7 +82,7 @@
       </div>
   </div>
 
-  <div class="form-group">
+  <div class="form-group" style="width: 80%;">
     <label><?php echo language::translate('title_admin_template', 'Admin Template'); ?></label>
       <?php echo functions::form_draw_templates_list('admin', 'template_admin', empty($_POST['template_admin']) ? settings::get('store_template_admin') : true); ?>
   </div>

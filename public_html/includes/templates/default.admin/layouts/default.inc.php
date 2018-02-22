@@ -5,10 +5,10 @@
 <meta charset="{snippet:charset}" />
 <meta name="robots" content="noindex, nofollow" />
 <meta name="viewport" content="width=1600,initial-scale=1.0">
-{snippet:head_tags}
-<link rel="stylesheet" href="{snippet:template_path}css/framework.min.css" />
-<link rel="stylesheet" href="{snippet:template_path}css/app.min.css" />
-{snippet:style}
+<link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.css"/>
+<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick-theme.css"/>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 
     <div id="logotype">
       <a href="<?php echo document::href_link(WS_DIR_ADMIN); ?>">
-        <img class="center-block img-responsive" src="<?php echo WS_DIR_TEMPLATE; ?>images/logotype.svg" alt="<?php echo settings::get('store_name'); ?>" />
+        <img class="center-block img-responsive" src="<?php echo WS_DIR_TEMPLATE; ?>images/logotype.jpeg" alt="<?php echo settings::get('store_name'); ?>" />
       </a>
     </div>
 
@@ -59,6 +59,7 @@
 
 {snippet:foot_tags}
 <script src="{snippet:template_path}js/app.min.js"></script>
+<script defer src="{snippet:template_path}Sagan-boilerplate/assets/fontawesome-free-5.0.6/svg-with-js/js/fontawesome-all.js"></script>
 {snippet:javascript}
 </body>
 </html>

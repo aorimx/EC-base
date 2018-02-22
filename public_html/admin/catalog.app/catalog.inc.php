@@ -202,17 +202,19 @@
     }
   }
 ?>
-<ul class="list-inline pull-right">
-  <li><?php echo functions::form_draw_form_begin('search_form', 'get', '', false, 'onsubmit="return false;"') . functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_phrase_or_keyword', 'Search phrase or keyword') .'"  onkeydown=" if (event.keyCode == 13) location=(\''. document::link('', array(), true, array('page', 'query')) .'&query=\' + encodeURIComponent(this.value))"') . functions::form_draw_form_end(); ?></li>
+
+<div class="header-admin">
+<ul class="list-inline pull-right catalog-ul" style="text-align: right; height: 48px;">
+  <li style="height: auto;"><?php echo functions::form_draw_form_begin('search_form', 'get', '', false, 'onsubmit="return false;"') . functions::form_draw_search_field('query', true, 'placeholder="'. language::translate('text_search_phrase_or_keyword', 'Search phrase or keyword') .'"  onkeydown=" if (event.keyCode == 13) location=(\''. document::link('', array(), true, array('page', 'query')) .'&query=\' + encodeURIComponent(this.value))"') . functions::form_draw_form_end(); ?></li>
   <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'edit_category', 'parent_id' => $_GET['category_id'])), language::translate('title_add_new_category', 'Add New Category'), '', 'add'); ?></li>
   <li><?php echo functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'edit_product'), array('category_id')), language::translate('title_add_new_product', 'Add New Product'), '', 'add'); ?></li>
 </ul>
 
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_catalog', 'Catalog'); ?></h1>
-
+</div>
 <?php echo functions::form_draw_form_begin('catalog_form', 'post'); ?>
 
-  <table class="table table-striped data-table">
+  <table class="table table-striped data-table" style="margin-top: 75px;">
     <thead>
       <tr>
         <th><?php echo functions::draw_fonticon('fa-check-square-o fa-fw checkbox-toggle', 'data-toggle="checkbox-toggle"'); ?></th>

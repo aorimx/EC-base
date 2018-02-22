@@ -128,9 +128,9 @@
 ?>
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_csv_import_export', 'CSV Import/Export'); ?></h1>
 
-<p><strong><?php echo language::translate('description_scan_before_importing_translations', 'It is recommended to always scan your installation for unregistered translations before performing an import or export.'); ?></strong></p>
+<p style="order: 2; margin-top: -250px;"><strong><?php echo language::translate('description_scan_before_importing_translations', 'It is recommended to always scan your installation for unregistered translations before performing an import or export.'); ?></strong></p>
 
-<div class="row">
+<div class="row" style="order: 3; margin-top: -400px;">
   <div class="col-md-3">
 
     <fieldset>

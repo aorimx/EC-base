@@ -74,18 +74,18 @@
 
 <?php echo functions::form_draw_form_begin('currencies_form', 'post'); ?>
 
-  <table class="table table-striped data-table">
+  <table class="table table-striped data-table currencies">
     <thead>
       <tr>
         <th><?php echo functions::draw_fonticon('fa-check-square-o fa-fw checkbox-toggle', 'data-toggle="checkbox-toggle"'); ?></th>
-        <th></th>
+        <!--<th></th>
         <th><?php echo language::translate('title_id', 'ID'); ?></th>
-        <th><?php echo language::translate('title_code', 'Code'); ?></th>
+        <th><?php echo language::translate('title_code', 'Code'); ?></th>-->
         <th class="main"><?php echo language::translate('title_name', 'Name'); ?></th>
         <th><?php echo language::translate('title_value', 'Value'); ?></th>
         <th><?php echo language::translate('title_decimals', 'Decimals'); ?></th>
-        <th><?php echo language::translate('title_prefix', 'Prefix'); ?></th>
-        <th><?php echo language::translate('title_suffix', 'Suffix'); ?></th>
+        <!--<th><?php echo language::translate('title_prefix', 'Prefix'); ?></th>
+        <th><?php echo language::translate('title_suffix', 'Suffix'); ?></th>-->
         <th><?php echo language::translate('title_default_currency', 'Default Currency'); ?></th>
         <th><?php echo language::translate('title_store_currency', 'Store Currency'); ?></th>
         <th><?php echo language::translate('title_priority', 'Priority'); ?></th>
@@ -104,15 +104,15 @@
     while ($currency = database::fetch($currencies_query)) {
 ?>
     <tr class="<?php echo empty($currency['status']) ? 'semi-transparent' : null; ?>">
-      <td><?php echo functions::form_draw_checkbox('currencies['. $currency['code'] .']', $currency['code']); ?></td>
+      <!--<td><?php echo functions::form_draw_checkbox('currencies['. $currency['code'] .']', $currency['code']); ?></td>
       <td><?php echo functions::draw_fonticon('fa-circle', 'style="color: '. (!empty($currency['status']) ? '#88cc44' : '#ff6644') .';"'); ?></td>
       <td><?php echo $currency['id']; ?></td>
-      <td><?php echo $currency['code']; ?></td>
+      <td><?php echo $currency['code']; ?></td>-->
       <td><a href="<?php echo document::href_link('', array('doc' => 'edit_currency', 'currency_code' => $currency['code']), true); ?>"><?php echo $currency['name']; ?></a></td>
       <td class="text-right"><?php echo $currency['value']; ?></td>
       <td class="text-center"><?php echo $currency['decimals']; ?></td>
-      <td class="text-center"><?php echo $currency['prefix']; ?></td>
-      <td class="text-center"><?php echo $currency['suffix']; ?></td>
+      <!--<td class="text-center"><?php echo $currency['prefix']; ?></td>
+      <td class="text-center"><?php echo $currency['suffix']; ?></td>-->
       <td class="text-center"><?php echo ($currency['code'] == settings::get('default_currency_code')) ? functions::draw_fonticon('fa-check') : ''; ?></td>
       <td class="text-center"><?php echo ($currency['code'] == settings::get('store_currency_code')) ? functions::draw_fonticon('fa-check') : ''; ?></td>
       <td class="text-center"><?php echo $currency['priority']; ?></td>

@@ -487,7 +487,7 @@
 
     <h2><?php echo language::translate('title_categories', 'Categories'); ?></h2>
 
-    <div class="row">
+    <div class="row csv">
       <div class="col-md-6">
         <fieldset class="well">
           <legend><?php echo language::translate('title_import_from_csv', 'Import From CSV'); ?></legend>

@@ -1,23 +1,25 @@
 <!-- START HEADER -->
+<div class="header-admin">
 <?php if(!empty($_GET['page_id'])) { ?>
     <ul class="list-inline pull-right">
     <li>
-        <?php echo 
-        functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'sectiondetail','page_id' => $_GET['page_id'],'new'=>true)), language::translate('title_add_new_section', 'Agregar nueva section'), '', 'add'); 
+        <?php echo
+        functions::form_draw_link_button(document::link('', array('app' => $_GET['app'], 'doc'=> 'sectiondetail','page_id' => $_GET['page_id'],'new'=>true)), language::translate('title_add_new_section', 'Agregar nueva section'), '', 'add');
         ?>
     </li>
     </ul>
 <?php }?>
 <h1><?php echo $app_icon; ?> Page detail  </h1>
+</div>
 <!-- END HEADER -->
 
 
-<?php 
+<?php
     $page = null;
 
     if (!empty($_GET['page_id']))
         $page = new ctrl_pages_custom((int)$_GET['page_id']);
-    else 
+    else
         $page = new ctrl_pages_custom();
 
     if (!empty($_POST['save'])) {
@@ -50,7 +52,7 @@
                 $output .= '<tr class="'. (false ? ' semi-transparent' : null) .'">' . PHP_EOL
                 . '  <td>'. functions::form_draw_checkbox('products['. $component['id'] .']', $component['id'], true) .'</td>' . PHP_EOL
                 . '  <td>'. functions::draw_fonticon('fa-circle', 'style="color: '. (false && !empty($page['status']) ? '#99cc66' : '#ff6666') .';"') .'</td>' . PHP_EOL
-                . '<td>' . $component['name'] .'</td>' 
+                . '<td>' . $component['name'] .'</td>'
                 ;
                 $output .= '  <td style="text-align: right;"></td>' . PHP_EOL
                 . '  <td class="text-right"><a href="'. document::href_link('', array('app' => $_GET['app'], 'doc' => 'sectiondetail','page_id'=>$_GET['page_id'],'section_id' => $component['id'], )) .'" title="'. language::translate('title_edit', 'Edit') .'">'. functions::draw_fonticon('fa-pencil').'</a></td>' . PHP_EOL
@@ -62,21 +64,20 @@
 ?>
 
 
+<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
 
-<?php echo functions::form_draw_form_begin('template_form', 'post', null, false, 'style="max-width: 320px;"'); ?>
-
-  <div class="form-group">
+  <div class="form-group pagesection-form-group">
     <label for="title" >Language code</label>
     <?php echo functions::form_draw_input('language_code',$page->data['language_code']); ?>
     <label for="title" >Title</label>
     <?php echo functions::form_draw_input('title',$page->data['title']); ?>
     <label for="subtitle">Meta description</label>
     <?php echo functions::form_draw_input('meta_description',$page->data['meta_description']); ?>
-    
+
   </div
 
 
-  <p class="btn-group">
+  <p class="btn-group pagesection-btn-group">
     <?php echo functions::form_draw_button('save', language::translate('page_save', 'Save'), 'submit', '', 'save'); ?>
     <?php echo functions::form_draw_button('cancel', language::translate('page_cancel', 'Cancel'), 'button', 'onclick="history.go(-1);"', 'cancel'); ?>
     <?php echo (isset($page->data['id'])) ? functions::form_draw_button('delete', language::translate('title_delete', 'Delete'), 'submit', 'onclick="if (!confirm(\''. language::translate('text_are_you_sure', 'Are you sure?') .'\')) return false;"', 'delete') : false; ?>

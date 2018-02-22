@@ -29,13 +29,13 @@
 
 <h2><?php echo language::translate('title_list_of_subscribers', 'List of Subscribers'); ?></h2>
 
-<p class="btn-group">
+<p class="btn-group" style="margin-top: -250px;">
   <a class="btn btn-default<?php echo (empty($_GET['template']) || $_GET['template'] == 'raw') ? ' active' : null; ?>" href="<?php echo document::href_link('', array('template' => 'raw'), array('app', 'doc')); ?>">Raw</a>
   <a class="btn btn-default<?php echo (isset($_GET['template']) && $_GET['template'] == 'email') ? ' active' : null; ?>" href="<?php echo document::href_link('', array('template' => 'email'), array('app', 'doc')); ?>">Email Formatted</a>
   <a class="btn btn-default<?php echo (isset($_GET['template']) && $_GET['template'] == 'csv') ? ' active' : null; ?>" href="<?php echo document::href_link('', array('template' => 'csv'), array('app', 'doc')); ?>">CSV</a>
 </ul>
 
-<div class="row" style="margin-bottom: 2em;">
+<div class="row" style="margin-bottom: 2em; margin-top: -400px;">
   <div class="col-md-6">
     <h2><?php echo language::translate('title_customers', 'Customers'); ?></h2>
 <?php

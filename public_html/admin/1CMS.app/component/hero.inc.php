@@ -8,7 +8,7 @@
       $compoment_content = null;
       if (!empty($_GET['component_id']))
           $compoment_content = new ctrl_pages_content_custom((int)$_GET['component_id']);
-      else 
+      else
           $compoment_content = new ctrl_pages_content_custom();
 
       if (!empty($_POST['save'])) {
@@ -50,7 +50,7 @@
           header('Location: '. document::link('', array('app' => $_GET['app'], 'doc' => 'sectiondetail', 'page_id' => $_GET['page_id'], 'section_id'=>$_GET['section_id'])));
           exit;
       }
-  
+
       if (!empty($_POST['delete'])){
           $compoment_content->delete();
           notices::add('success', language::translate('success_post_deleted', 'Post deleted'));
@@ -60,7 +60,7 @@
 ?>
 
 
-  <?php echo functions::form_draw_form_begin('hero_form', 'post', false, true, 'style="max-width: 320px;"'); ?>
+  <?php echo functions::form_draw_form_begin('hero_form', 'post', false, true, 'style="max-width: 320px; display: inline-flex; flex-wrap: wrap;"'); ?>
   <label for="title" >Title</label>
   <?php echo functions::form_draw_input('title',(isset($compoment_content->data['component_content']['title'])?$compoment_content->data['component_content']['title']:'')); ?>
   <label for="subtitle">Subtitle</label>

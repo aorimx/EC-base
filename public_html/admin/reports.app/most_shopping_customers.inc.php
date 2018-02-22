@@ -16,8 +16,16 @@
 ?>
 
 <style>
+form{
+  margin-top: -300px!important;
+}
+form ul{
+  padding: 0;
+}
 form[name="filter_form"] li {
   vertical-align: middle;
+  list-style: none;
+  text-align: left;
 }
 </style>
 
@@ -39,7 +47,7 @@ form[name="filter_form"] li {
 
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_most_shopping_customers', 'Most Shopping Customers'); ?></h1>
 
-<table class="table table-striped data-table">
+<table class="table table-striped data-table most-shopping-table">
   <thead>
     <tr>
       <th><?php echo language::translate('title_customer', 'Customer'); ?></th>
