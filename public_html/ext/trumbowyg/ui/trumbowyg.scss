@@ -19,6 +19,7 @@ $transition-duration: 150ms !default;
 $slow-transition-duration: 300ms !default;
 
 #trumbowyg-icons {
+  display: none;
     overflow: hidden;
     visibility: hidden;
     height: 0;

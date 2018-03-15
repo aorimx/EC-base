@@ -4,11 +4,10 @@
 <title>{snippet:title}</title>
 <meta charset="{snippet:charset}" />
 <meta name="robots" content="noindex, nofollow" />
-<meta name="viewport" content="width=1600,initial-scale=1.0">
-<link rel="stylesheet" href="{snippet:template_path}css/font-awesome.min.css">
-<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/styles/main.css">
-<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick.css"/>
-<link rel="stylesheet" href="{snippet:template_path}Sagan-boilerplate/assets/slick/slick-theme.css"/>
+{snippet:head_tags}
+<link rel="stylesheet" href="{snippet:template_path}css/framework.min.css" />
+<link rel="stylesheet" href="{snippet:template_path}css/app.min.css" />
+{snippet:style}
 </head>
 <body>
 
@@ -37,15 +36,15 @@
 
     {snippet:box_apps_menu}
 
-    <div id="languages" class="text-center">
+    <div id="languages" class="text-center" style="display:none;">
       <?php foreach (language::$languages as $language) { ?>
       <?php if ($language['status']) { ?><a href="<?php echo document::href_link(null, array('language' => $language['code']), true); ?>"><img src="<?php echo WS_DIR_IMAGES .'languages/'. $language['code'] .'.png'; ?>" alt="<?php echo htmlspecialchars($language['name']); ?>" style="max-width: 16px;" /></a><?php } ?>
       <?php } ?>
     </div>
 
-    <div id="platform" class="text-center"><?php echo PLATFORM_NAME; ?> <?php echo PLATFORM_VERSION; ?></div>
+    <div id="platform" class="text-center" style="display:none;"><?php echo PLATFORM_NAME; ?> <?php echo PLATFORM_VERSION; ?></div>
 
-    <div id="copyright" class="text-center">&copy; <?php echo date('2012-Y'); ?> LiteCart<br />
+    <div id="copyright" class="text-center" style="display:none;">&copy; <?php echo date('2012-Y'); ?> LiteCart<br />
       <a href="http://www.litecart.net" target="_blank">www.litecart.net</a>
     </div>
   </div>
