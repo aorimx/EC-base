@@ -1,12 +1,14 @@
 <?php
   if (empty($_GET['page']) || !is_numeric($_GET['page'])) $_GET['page'] = 1;
 ?>
+<div class="header-admin">
+
 <ul class="list-inline pull-right">
   <li><?php echo functions::form_draw_link_button(document::link('', array('doc' => 'edit_delivery_status'), true), language::translate('title_create_new_status', 'Create New Status'), '', 'add'); ?></li>
 </ul>
 
 <h1><?php echo $app_icon; ?> <?php echo language::translate('title_delivery_statuses', 'Delivery Statuses'); ?></h1>
-
+</div>
 <?php echo functions::form_draw_form_begin('delivery_statuses_form', 'post'); ?>
 
   <table class="table table-striped data-table">

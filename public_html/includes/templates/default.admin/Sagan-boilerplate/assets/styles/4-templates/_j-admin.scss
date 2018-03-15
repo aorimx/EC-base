@@ -23,6 +23,20 @@ html, body, .page {
         list-style: none;
       }
     }
+    //index
+    #notices{
+      display: none;
+    }
+    #box-widgets-wrapper{
+      ul{
+        li{
+          display: none;
+        }
+        li:nth-child(2){
+          display: block;
+        }
+      }
+    }
     //doc pagelist styles
     .pagelist-table{
       margin-top: 0px;
@@ -43,7 +57,6 @@ html, body, .page {
         }
       }
     }
-    
     //doc section ditail
     .header-admin{
       display: inline-flex;
