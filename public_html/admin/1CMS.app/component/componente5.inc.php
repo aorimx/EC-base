@@ -45,7 +45,9 @@
             'btn_link'=>$_POST['btn_link'],
             'imagen'=> 'hero.png',
           );
-          $compoment_content->save((int)$_GET['section_id']);
+          global $var5;
+          $va5=5;
+          $compoment_content->save((int)$_GET['section_id'], (int)$var5);
           notices::add('success', language::translate('success_changes_saved', 'Changes saved'));
           header('Location: '. document::link('', array('app' => $_GET['app'], 'doc' => 'sectiondetail', 'page_id' => $_GET['page_id'], 'section_id'=>$_GET['section_id'])));
           exit;

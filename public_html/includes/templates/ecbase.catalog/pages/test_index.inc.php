@@ -11,9 +11,9 @@
           <h1>Nuestros <br>clientes _<h1/>
         </div>
         <div style="width: 60%;">
-          <?php include vmod::check(FS_DIR_HTTP_ROOT . '/EC-base/public_html/components/Componente6.inc.php'); ?>
+          <?php //include vmod::check(FS_DIR_HTTP_ROOT . '/EC-base/public_html/components/Componente6.inc.php'); ?>
       </div>
       </div>
 
-		  <?php include vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/menu.inc.php'); ?>
+		  <?php //nclude vmod::check(FS_DIR_HTTP_ROOT . WS_DIR_TEMPLATE . 'views/menu.inc.php'); ?>
 </div>
